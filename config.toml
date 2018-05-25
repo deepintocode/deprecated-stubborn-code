@@ -1,0 +1,14 @@
+baseURL = "http://stubborncode.com/"
+languageCode = "en-us"
+title = "Stubborn Code"
+MetaDataFormat = "toml"
+theme = "hyde-x"
+
+[author]
+name = "Teo"
+
+[params]
+home = "Posts"
+highlight = "railscasts"
+github = "https://github.com/todorare"
+twitter = "https://twitter.com/todorare"
