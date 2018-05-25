@@ -1,4 +1,4 @@
-baseURL = "http://stubborncode.com/"
+baseURL = "https://stubborncode.com/"
 languageCode = "en-us"
 title = "Stubborn Code"
 MetaDataFormat = "toml"
