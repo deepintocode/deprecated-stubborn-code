@@ -1,0 +1,25 @@
+.list-inline {
+  list-style-type: none;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+
+.list-inline li:hover {
+  display: inline-block;
+  padding: 10px;
+  transform: scale(1.5);
+  transition: transform 0.5s 0.05s;
+}
+
+.list-inline li a{
+  text-decoration: none;
+}
+
+.list-inline i {
+  color: #252525;
+}

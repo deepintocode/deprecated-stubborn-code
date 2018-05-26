@@ -1,0 +1,30 @@
+<!-- Social Share Button HTML -->
+
+<!-- Twitter -->
+<li>
+    <a href="//twitter.com/share?url={{ .Permalink }}&amp;text={{ .Title }}&amp;via={{ .Site.Author.twitter }}" target="_blank"
+        alt="" title="Share on Twitter">
+        <i class="fab fa-twitter fa-2x"></i>
+    </a>
+</li>
+
+<!-- Facebook -->
+<li>
+    <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" title="Share on Facebook">
+        <i class="fab fa-facebook-f fa-2x"></i>
+    </a>
+</li>
+
+<!-- Reddit -->
+<li>
+    <a href="//reddit.com/submit?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" title="Share on Reddit">
+        <i class="fab fa-reddit-alien fa-2x"></i>
+    </a>
+</li>
+
+<!-- LinkedIn -->
+<li>
+    <a href="//www.linkedin.com/shareArticle?url={{ .Permalink }}&amp;title={{ .Title }}" target="_blank" title="Share on LinkedIn">
+        <i class="fab fa-linkedin-in fa-2x"></i>
+    </a>
+</li>
