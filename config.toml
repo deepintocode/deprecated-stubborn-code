@@ -1,7 +1,6 @@
 baseURL = "https://stubborncode.com/"
 languageCode = "en-us"
 title = "Stubborn Code"
-MetaDataFormat = "yaml"
 theme = "hyde-x"
 
 [author]
