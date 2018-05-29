@@ -12,6 +12,7 @@
         {{ partial "social-share" . }}
     </ul>
   </div>
+    {{ partial "comments_form" . }}
   {{ if .Site.DisqusShortname }}<div id="disqus_thread"></div>{{ end }}
 </div>
 

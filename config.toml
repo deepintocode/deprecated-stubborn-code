@@ -1,7 +1,7 @@
 baseURL = "https://stubborncode.com/"
 languageCode = "en-us"
 title = "Stubborn Code"
-MetaDataFormat = "toml"
+MetaDataFormat = "yaml"
 theme = "hyde-x"
 
 [author]
@@ -13,3 +13,4 @@ highlight = "railscasts"
 github = "https://github.com/todorare"
 twitter = "https://twitter.com/todorare"
 googleAnalytics = "UA-119889973-1"
+staticmanURL = "https://api.staticman.net/v2/entry/todorare/stubborn-code/master/comments"
