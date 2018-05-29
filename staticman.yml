@@ -11,7 +11,7 @@ comments:
 
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted.
-  allowedOrigins: ["localhost", "hugo.staticman.net"]
+  allowedOrigins: ["localhost", "stubborncode.com"]
 
   # (*) REQUIRED
   #
@@ -34,10 +34,10 @@ comments:
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: true
+  moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "Hugo + Staticman"
+  name: "Stubborn Code"
 
   # (*) REQUIRED
   #
@@ -60,7 +60,7 @@ comments:
 
 posts:
   allowedFields: ["title", "body"]
-  allowedOrigins: ["localhost", "hugo.staticman.net"]
+  allowedOrigins: ["localhost", "stubborncode.com"]
   branch: "master"
   generatedFields:
     date:
@@ -72,7 +72,7 @@ posts:
     tags: ["user-generated"]
   format: "frontmatter"
   moderation: true
-  name: "Hugo + Staticman"
+  name: "Stubborn Code"
   path: "content/post"
   filename: "{fields.slug}"
   requiredFields: ["title", "body"]
