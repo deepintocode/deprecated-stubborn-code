@@ -23,3 +23,57 @@
 .list-inline i {
   color: #252525;
 }
+
+.post-comments {
+  margin-top: 60px;
+}
+
+.post-comment {
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.post-comment-header {
+  margin-bottom: 20px;
+}
+
+.post-comment-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.post-comment-info {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.post-comment-field {
+  display: block;
+  font: inherit;
+  padding: 10px;
+  margin-top: 20px;
+  outline-color: #252525;
+  width: 100%;
+}
+
+.btn {
+  border: 2px solid #252525;
+  background-color: #252525;
+  color: white;
+  display: inline-block;
+  font: inherit;
+  padding: 20px;
+  min-width: 100px;
+}
+
+.btn:hover {
+  border: 2px solid #252525;
+  background-color: white;
+  color: #252525;
+  cursor: pointer;
+  text-decoration: none;
+}
