@@ -1,7 +1,7 @@
 ---
 title: "How to Install Kali Linux 2018.2 on a Raspberry Pi 3"
 date: 2018-06-07T18:54:59+01:00
-draft: true
+draft: false
 type: "post"
 ---
 
