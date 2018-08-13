@@ -8,8 +8,13 @@ name = "Teo"
 
 [params]
 home = "Posts"
+portfolio = "Portfolio"
 highlight = "railscasts"
 github = "https://github.com/todorare"
 twitter = "https://twitter.com/todorare"
+linkedin = "https://www.linkedin.com/in/theodorosmanos/"
 googleAnalytics = "UA-119889973-1"
 staticmanURL = "https://api.staticman.net/v2/entry/todorare/stubborn-code/master/comments"
+
+[blackfriday] 
+hrefTargetBlank = true
